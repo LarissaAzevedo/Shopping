@@ -28,7 +28,7 @@ class App extends Component {
           <PickupsSavings price={this.state.PickupsSavings} />
           <TaxesFees taxes={this.state.taxes.toFixed(2)} />
           <hr />
-          <EstimatedTotal price={this.state.estimatedTotal.toFixed(2)}/>
+          <EstimatedTotal price={this.state.estimatedTotal.toFixed(2)} />
           <ItemDetails />
         </Container>
       </div>
